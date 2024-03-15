@@ -213,7 +213,7 @@ public class kalkulator extends javax.swing.JFrame {
         double a = Double.parseDouble(bil1.getText());
         double b = Double.parseDouble(bil2.getText());
         double hasil = a + b;
-        DecimalFormat DF = new DecimalFormat ( "#,###,##0." );
+        DecimalFormat DF = new DecimalFormat ( "#,###,##0" );
         total.setText(DF.format(hasil));
     }//GEN-LAST:event_tambahActionPerformed
 
@@ -222,7 +222,7 @@ public class kalkulator extends javax.swing.JFrame {
         double a = Double.parseDouble(bil1.getText());
         double b = Double.parseDouble(bil2.getText());
         double hasil = a - b;
-        DecimalFormat DF = new DecimalFormat ( "#,###,##.0" );
+        DecimalFormat DF = new DecimalFormat ( "#,###,##0" );
         total.setText(DF.format(hasil));
     }//GEN-LAST:event_kurangActionPerformed
 
@@ -231,7 +231,7 @@ public class kalkulator extends javax.swing.JFrame {
         double a = Double.parseDouble(bil1.getText());
         double b = Double.parseDouble(bil2.getText());
         double hasil = a * b;
-        DecimalFormat DF = new DecimalFormat ( "#,###,##0." );
+        DecimalFormat DF = new DecimalFormat ( "#,###,##0" );
         total.setText(DF.format(hasil));
     }//GEN-LAST:event_kaliActionPerformed
 
@@ -240,7 +240,7 @@ public class kalkulator extends javax.swing.JFrame {
         double a = Double.parseDouble(bil1.getText());
         double b = Double.parseDouble(bil2.getText());
         double hasil = a / b;
-        DecimalFormat DF = new DecimalFormat ( "#,###,##0." );
+        DecimalFormat DF = new DecimalFormat ( "#,###,##0" );
         total.setText(DF.format(hasil));
     }//GEN-LAST:event_bagiActionPerformed
 
